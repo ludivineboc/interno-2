@@ -59,6 +59,9 @@ h3 {
     gap:20px;
 }
 
+.bold{
+    font-weight: 700;
+}
 /*fin des proprietes flexbox*/
 
 .container {
