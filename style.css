@@ -17,7 +17,7 @@ a {
 
 p {
     font-family:"Jost", sans-serif;
-    font-size:12px;
+    font-size:18px;
 }
 
 li {
@@ -27,6 +27,7 @@ li {
 h2 {
     font-family: "DM Serif Display", serif;
     font-size: 50px;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -37,8 +38,10 @@ h1 {
 h3 {
     font-family: "DM Serif Display", serif;
     font-size: 22px;
+    margin-bottom: 15px;
 }
 
+/* proprietes flexbox */
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -52,6 +55,11 @@ h3 {
     align-items: center;
 }
 
+.gap20 {
+    gap:20px;
+}
+
+/*fin des proprietes flexbox*/
 
 .container {
     max-width:1000px;
@@ -71,6 +79,23 @@ h3 {
     margin-top: 40px;
 
 }
+
+.width30 {
+    width: 30%;
+}
+
+.width45 {
+    width: 45%;
+}
+
+.paddingTop150{
+    padding-top: 150px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
 
 /* HEADER */
 .logo {
@@ -100,5 +125,17 @@ header {
     margin-top: 40px;
 }
 
+/* SECTION DEVIS */
+
+.imageSectionDevis {
+    border-radius: 0 200px 0 50px;
+}
 
 
+.iconAppel {
+    width: 30px;
+}
+
+.pSectionDevis {
+    margin-bottom: 15px;
+}
