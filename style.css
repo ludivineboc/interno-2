@@ -5,27 +5,39 @@
     box-sizing: border-box;
 }
 
+body {
+    color: #292F36;
+}
+
 a {
     text-decoration: none;
+    font-family: "Jost", sans-serif;
+    color: #292F36;
+}
+
+p {
+    font-family:"Jost", sans-serif;
+    font-size:12px;
 }
 
 li {
     list-style: none;
 }
 
+h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 50px;
+}
+
 h1 {
     font-family: "DM Serif Display", serif;
     font-size:85px;
 }
- h2 {
-    font-family: "DM Serif Display", serif;
-    font-size:50px;
- }
 
- p {
-    font-family: "Jost", sans-serif;
+h3 {
+    font-family: "DM Serif Display", serif;
     font-size: 22px;
- }
+}
 
 .flex {
     display: flex;
@@ -43,7 +55,21 @@ h1 {
 
 .container {
     max-width:1000px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    background-color: #292F36;
+    color: white;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: inline-block;
+    border-radius: 18px;
+    margin-top: 40px;
+
 }
 
 /* HEADER */
@@ -66,4 +92,13 @@ header {
     background-repeat: no-repeat;
     background-size:cover;
     border-radius: 0 0 0 200px;
+    padding-top: 100px;
 }
+
+.pHero {
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+
+
